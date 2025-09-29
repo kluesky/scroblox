@@ -33,67 +33,190 @@ particlesJS('particles-js', {
     }
 });
 
-// Script data
+// Script data dengan kategori dan status
 const scripts = [
+    // Mount Scripts
+    {
+        title: "Mount - HTS",
+        code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FayintXhub/Mount-HTS/refs/heads/main/MountHTS"))()',
+        password: null,
+        risk: "MEDIUM",
+        category: "mount",
+        status: "🟢",
+        description: "(Fast + No Delay)"
+    },
+    {
+        title: "Mount - Parvata",
+        code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FayintXhub/Mount-Parvata/refs/heads/main/MountPARVATA"))()',
+        password: null,
+        risk: "MEDIUM",
+        category: "mount",
+        status: "🟢",
+        description: "(Free Private Server)"
+    },
+    {
+        title: "Mount - Kawah Terjun",
+        code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FayintXhub/Mount-KawahTerjun/refs/heads/main/MountKawahTerjun"))()',
+        password: null,
+        risk: "MEDIUM",
+        category: "mount",
+        status: "🟢",
+        description: "Mode hard per Summit x300 | Delay 3 menit per Summit"
+    },
+    {
+        title: "Mount - Labirin",
+        code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FayintXhub/Mount-Labirin/refs/heads/main/MountLabirin"))()',
+        password: null,
+        risk: "HIGH",
+        category: "mount",
+        status: "🟡",
+        description: "(Free Private Server) | (Anticheat)"
+    },
+    {
+        title: "Mount - Lembayana",
+        code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FayintXhub/Mount-Lembayana/refs/heads/main/MountLembayana"))()',
+        password: null,
+        risk: "MEDIUM",
+        category: "mount",
+        status: "🟢",
+        description: "(Free Private Server) | Note : wajib pake Fly di menu Cheat"
+    },
+    {
+        title: "Mount - Ckptw",
+        code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FayintXhub/Mount-Ckptw/refs/heads/main/MountCkptw"))()',
+        password: null,
+        risk: "HIGH",
+        category: "mount",
+        status: "🟡",
+        description: "(Anticheat)"
+    },
+    {
+        title: "Hell - Expedition",
+        code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FayintXhub/Hell-Expedition/refs/heads/main/HellExpedition"))()',
+        password: null,
+        risk: "MEDIUM",
+        category: "mount",
+        status: "🟢",
+        description: "(Free Private Server)"
+    },
+    {
+        title: "Mount - Sumbing",
+        code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FayintXhub/Mount-Sumbing/refs/heads/main/MountSumbing"))()',
+        password: null,
+        risk: "MEDIUM",
+        category: "mount",
+        status: "🟢",
+        description: ""
+    },
+    {
+        title: "Mount - Gampil",
+        code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FayintXhub/Mount-Gampil/refs/heads/main/MountGampil"))()',
+        password: null,
+        risk: "MEDIUM",
+        category: "mount",
+        status: "🟢",
+        description: "(Fast + No Delay)"
+    },
+    {
+        title: "Neraka - Journey",
+        code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FayintXhub/Neraka-Journey/refs/heads/main/NerakaJourney"))()',
+        password: null,
+        risk: "MEDIUM",
+        category: "mount",
+        status: "🟢",
+        description: "(Free Private Server) | Delay 10 menit per Summit"
+    },
+    {
+        title: "Gunung Basahan by Tinoooo",
+        code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FayintXhub/Mount-Basahan/refs/heads/main/MountBasahan"))()',
+        password: null,
+        risk: "MEDIUM",
+        category: "mount",
+        status: "🟡",
+        description: "[ VIP REQUEST ]",
+        vip: true
+    },
+
+    // Other Scripts (script sebelumnya)
     {
         title: "Fling Player",
         code: 'loadstring(game:HttpGet("https://pastebin.com/raw/ZuxLUdkM"))()',
         password: null,
-        risk: "HIGH"
+        risk: "HIGH",
+        category: "other",
+        status: "🟢"
     },
     {
         title: "Hapus Objek",
         code: 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Unanchored-Parts-Controller-Gui-47141"))()',
         password: null,
-        risk: "MEDIUM"
+        risk: "MEDIUM",
+        category: "other",
+        status: "🟢"
     },
     {
         title: "Tarik/Geser Objek",
         code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FayintXhub/Bring-Parts/refs/heads/main/BringParts"))()',
         password: null,
-        risk: "MEDIUM"
+        risk: "MEDIUM",
+        category: "other",
+        status: "🟢"
     },
     {
         title: "Invisible Hack",
         code: 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Invisible-script-20557"))()',
         password: null,
-        risk: "HIGH"
+        risk: "HIGH",
+        category: "other",
+        status: "🟢"
     },
     {
         title: "Fly to High",
         code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()',
         password: null,
-        risk: "HIGH"
+        risk: "HIGH",
+        category: "other",
+        status: "🟢"
     },
     {
         title: "All Mount V2",
         code: 'loadstring(game:HttpGet(\'https://raw.githubusercontent.com/eryxaryxa/All-Mount-Indonesia/refs/heads/main/eryxhuballmountautowalkuniversal.lua\'))()',
-        password: null,
-        risk: "EXTREME"
+        password: "donotscreenshot",
+        risk: "EXTREME",
+        category: "other",
+        status: "🟢"
     },
     {
         title: "Animasi No Visual",
         code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FayintXhub/Animasi-Emote/refs/heads/main/No-Visual"))()',
         password: null,
-        risk: "LOW"
+        risk: "LOW",
+        category: "other",
+        status: "🟢"
     },
     {
         title: "All Mount V3",
         code: 'loadstring(game:HttpGet(\'https://raw.githubusercontent.com/eryxaryxa/All-Mount-Indonesia/refs/heads/main/eryxhuballmountindonesianew.lua\'))()',
-        password: null,
-        risk: "EXTREME"
+        password: "jangandisebarkocak",
+        risk: "EXTREME",
+        category: "other",
+        status: "🟢"
     },
     {
         title: "All Mount Noir",
         code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/noirexe/pree/refs/heads/main/mainmap.lua"))()',
         password: "NOIR_PW8SYRDIM",
-        risk: "EXTREME"
+        risk: "EXTREME",
+        category: "other",
+        status: "🟢"
     },
     {
         title: "Infinity Yield",
         code: 'loadstring(game:HttpGet(\'https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source\'))()',
         password: null,
-        risk: "HIGH"
+        risk: "HIGH",
+        category: "other",
+        status: "🟢"
     }
 ];
 
@@ -106,6 +229,10 @@ const searchInput = document.getElementById('searchInput');
 const scriptCount = document.getElementById('scriptCount');
 const notification = document.getElementById('notification');
 const notificationText = document.getElementById('notificationText');
+const tabButtons = document.querySelectorAll('.tab-btn');
+
+let currentCategory = 'all';
+let currentScripts = [...scripts];
 
 // Show warning modal on load
 document.addEventListener('DOMContentLoaded', function() {
@@ -116,12 +243,49 @@ document.addEventListener('DOMContentLoaded', function() {
 acceptRiskBtn.addEventListener('click', function() {
     warningModal.style.display = 'none';
     document.querySelector('.container').style.opacity = '1';
-    renderScripts(scripts);
+    renderScripts(currentScripts);
 });
 
 leaveSiteBtn.addEventListener('click', function() {
     window.location.href = 'https://www.roblox.com';
 });
+
+// Tab functionality
+tabButtons.forEach(button => {
+    button.addEventListener('click', function() {
+        // Remove active class from all buttons
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        // Add active class to clicked button
+        this.classList.add('active');
+        
+        currentCategory = this.getAttribute('data-category');
+        filterScripts();
+    });
+});
+
+// Filter scripts based on category and search
+function filterScripts() {
+    let filtered = scripts;
+    
+    // Filter by category
+    if (currentCategory !== 'all') {
+        filtered = filtered.filter(script => script.category === currentCategory);
+    }
+    
+    // Filter by search term
+    const searchTerm = searchInput.value.toLowerCase();
+    if (searchTerm) {
+        filtered = filtered.filter(script => 
+            script.title.toLowerCase().includes(searchTerm) || 
+            script.code.toLowerCase().includes(searchTerm) ||
+            (script.password && script.password.toLowerCase().includes(searchTerm)) ||
+            (script.description && script.description.toLowerCase().includes(searchTerm))
+        );
+    }
+    
+    currentScripts = filtered;
+    renderScripts(currentScripts);
+}
 
 // Render scripts function
 function renderScripts(scriptsArray) {
@@ -131,16 +295,27 @@ function renderScripts(scriptsArray) {
     scriptsArray.forEach(script => {
         const scriptCard = document.createElement('div');
         scriptCard.className = 'script-card';
+        scriptCard.setAttribute('data-category', script.category);
+        
+        const statusClass = script.status === '🟢' ? 'stable' : 
+                           script.status === '🟡' ? 'unstable' : 
+                           script.status === '🛑' ? 'error' : 'stable';
         
         scriptCard.innerHTML = `
             <div class="script-header">
                 <div class="script-title">${script.title}</div>
-                <div class="script-risk">${script.risk} RISK</div>
+                <div class="script-status">
+                    <span class="status-badge ${statusClass}">${script.status}</span>
+                    ${script.vip ? '<span class="status-badge vip">💎</span>' : ''}
+                </div>
             </div>
+            ${script.description ? `
+                <div class="script-description">${script.description}</div>
+            ` : ''}
             <div class="script-code">${script.code}</div>
             ${script.password ? `
                 <div class="script-password">
-                    <div class="password-label">get key here:</div>
+                    <div class="password-label">PASSWORD REQUIRED:</div>
                     <div class="password-value">${script.password}</div>
                 </div>
             ` : ''}
@@ -195,14 +370,7 @@ function showNotification(message) {
 
 // Search functionality
 searchInput.addEventListener('input', function() {
-    const searchTerm = this.value.toLowerCase();
-    const filteredScripts = scripts.filter(script => 
-        script.title.toLowerCase().includes(searchTerm) || 
-        script.code.toLowerCase().includes(searchTerm) ||
-        (script.password && script.password.toLowerCase().includes(searchTerm))
-    );
-    
-    renderScripts(filteredScripts);
+    filterScripts();
 });
 
 // Initial render (after accepting risk)
