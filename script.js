@@ -46,6 +46,15 @@ const scripts = [
         description: "(Fast + No Delay)"
     },
     {
+        title: "ESP and More",
+        code: 'loadstring(game:HttpGet("https://pastefy.app/5AqReOmv/raw"))()',
+        password: null,
+        risk: "Not Detected",
+        category: "Universal",
+        status: "🟢",
+        description: ""
+    },
+    {
         title: "Mount - Parvata",
         code: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FayintXhub/Mount-Parvata/refs/heads/main/MountPARVATA"))()',
         password: null,
@@ -139,10 +148,10 @@ const scripts = [
 
     // Other Scripts (script sebelumnya)
     {
-        title: "Fling Player",
-        code: 'loadstring(game:HttpGet("https://pastebin.com/raw/ZuxLUdkM"))()',
+        title: "Teleport Player [ Modern ]",
+        code: 'loadstring(game:HttpGet("https://pastefy.app/iJBoShEK/raw"))()',
         password: null,
-        risk: "HIGH",
+        risk: "Not Detected",
         category: "other",
         status: "🟢"
     },
